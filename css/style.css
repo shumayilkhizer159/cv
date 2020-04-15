@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40414E;
+
+
+
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    color: #66BFBF;
+    padding-bottom: 10px;       
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 4rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.comp-img{
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.giphy-img{
+border-radius: 100%;
+ width: 25%;
+ float: right;
+ margin-left: 30px;
+
+}
+
+hr {
+        border: dotted #d1f5d3 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.top-container {
+    background-color: #d1f5d3;
+    position: relative;
+    padding-top: 100px
+}
+
+
+.under {
+    text-decoration: underline;
+}
+
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+#normal {
+    font-weight: normal;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin: auto;
+    padding: 50px 0 20px;
+        font-family: 'Montserrat', serif;
+
+    
+}
+
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 30%; 
+    margin: auto;
+}
+
+.align{
+    padding-top: 5px;
+}
+.align:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    font-size: 100%;
+    color: #EAF6F6;
+    background-color: #66BFBF;
+        font-family: 'Montserrat', serif;
+        padding: 20px 0;
+
+}
+
+.footer-link{
+    text-decoration: none;
+}
+.btn{
+    -moz-box-shadow: 1px 0px 14px -7px #11cdd4;
+    -webkit-box-shadow: 1px 0px 14px -7px #11cdd4;
+    box-shadow: 1px 0px 14px -7px #11cdd4;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #11cdd4) );
+    background:-moz-linear-gradient( center top, #599bb3 5%, #11cdd4 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#11cdd4');
+    background-color:#599bb3;
+    -webkit-border-top-left-radius:11px;
+    -moz-border-radius-topleft:11px;
+    border-top-left-radius:11px;
+    -webkit-border-top-right-radius:11px;
+    -moz-border-radius-topright:11px;
+    border-top-right-radius:11px;
+    -webkit-border-bottom-right-radius:11px;
+    -moz-border-radius-bottomright:11px;
+    border-bottom-right-radius:11px;
+    -webkit-border-bottom-left-radius:11px;
+    -moz-border-radius-bottomleft:11px;
+    border-bottom-left-radius:11px;
+text-indent:0;
+    display:inline-block;
+    color:#ffffff;
+font-family:'Montserrat',sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+height:50px;
+    line-height:50px;
+width:140px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:0px -2px 0px #3d768a;}
+
+
+
+    .classname:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #599bb3) );
+    background:-moz-linear-gradient( center top, #11cdd4 5%, #599bb3 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#599bb3');
+    background-color:#11cdd4;
+}.classname:active {
+    position:relative;
+    top:1px;
